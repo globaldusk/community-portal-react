@@ -1,12 +1,19 @@
 import React, {Component} from 'react';
 
-export class WelcomeSection extends Component {
+var welcomeMessage = (`Welcome to the Prime Golf Club community portal. 
+We are a Sydney based golf course with a national presence and host annual tournaments.
+As a company we value service, quality and experience.
+
+On this web app you can fin images and videos of our facilities, weather and traffic 
+for each day of the week at our locations, you can also contact us directly!`);
+
+export class WelcomeSection extends Component {//using synthetic events
   render(){
     return (
-      <section >
+      <section>
         <div id="welcome" className="welcome">
-          <h2>Welcome to our Website</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed volutpat nibh nec purus feugiat, id aliquam orci sagittis. Etiam id dui in diam congue faucibus.</p>
+          <h2>Welcome to the Prime Golf Community Portal, {this.props.name}</h2>
+          <p>{welcomeMessage}</p>
         </div>
         <div id="contact-us" className="contact-us">
           <h2>Contact Us</h2>

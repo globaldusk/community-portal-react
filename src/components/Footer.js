@@ -18,6 +18,7 @@ export class Footer extends Component {
         </div>
         <div className="footer-terms">
           <p>Terms and Conditions | Privacy Policy</p>
+          <p>All our content is borrowed from online sources</p>
         </div>
       </footer>
     );

@@ -1,5 +1,8 @@
 import React, {Component} from 'react';
 
+import {StateValue} from './CapacityGenerator'
+
+
 /*weather iframe widget do sdisplay a simple weather map of user location and the club location
 table and ifram in same section  to keep them inline on the web page */
 export class WeatherTrafficSection extends Component {
@@ -23,6 +26,7 @@ export class WeatherTrafficSection extends Component {
         <table>
           <thead>
               <tr>
+                  <td>DAY:</td>
                   <td>MON</td>
                   <td>TUE</td>
                   <td>WED</td>
@@ -34,6 +38,7 @@ export class WeatherTrafficSection extends Component {
           </thead>
           <tbody>
               <tr>
+                  <td>USUAL CAPACITY:</td>
                   <td>40%</td>
                   <td>50%</td>
                   <td>75%</td>
@@ -42,9 +47,10 @@ export class WeatherTrafficSection extends Component {
                   <td>80%</td>
                   <td>90%</td>
               </tr>
+              <tr><StateValue/></tr>
           </tbody>
       </table>
-        </section>
+      </section>
       );
   }
 }

@@ -11,14 +11,12 @@ import {WeatherTrafficSection} from './components/WeatherTrafficSection'
 import {Summary} from './components/Summary'
 import {Footer} from './components/Footer'
 
-
-
 function App() {
   return (
     <div>
       <Header/>
       <Navbar/>
-      <WelcomeSection/>
+      <WelcomeSection name="Jack"/>
       <GolfVideo/>
       <ImageGallery/>
       <WeatherTrafficSection/>

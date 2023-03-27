@@ -1,19 +1,20 @@
 import React, {Component} from 'react';
 
+var summaryMessage = `Thank you for visiting the Prime Golf Community Portal! 
+Our website serves as a central hub for individuals who share a an interest in our facilities. 
+We provide a platform for members to connect and engage with us through the contact section. 
+
+Our community portal is designed to be interactive, allowing members to identify weather and view footage of our courses. 
+
+We hope that our website fosters a sense of belonging and shared purpose among our members, and we invite you to join our community today.`;
+
 export class Summary extends Component {
   render(){
     return (
       <section className="summary">
         <h2>Thank you for visiting!</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod
-          enim auctor augue dictum, vel lacinia purus gravida. In non varius
-          tellus, non rhoncus quam. Donec sagittis bibendum dolor, vitae
-          tristique turpis bibendum nec. Integer gravida, nulla sit amet
-          sollicitudin aliquam, nisl mauris volutpat magna, at pharetra lorem
-          turpis id enim. Vivamus faucibus, mi eget sagittis tincidunt, odio
-          augue tristique nisi, sit amet congue enim mauris id urna. Donec a
-          diam est.
+          {summaryMessage}
         </p>
       </section>
     );
