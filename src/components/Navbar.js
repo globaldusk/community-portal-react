@@ -1,25 +1,27 @@
-import React from 'react';
-import { Link } from 'react-router-dom'; // if you're using React Router
+import React, {Component} from 'react';
 
-function Navbar() {
-  return (
-    <nav>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/about">About</Link>
-        </li>
-        <li>
-          <Link to="/services">Services</Link>
-        </li>
-        <li>
-          <Link to="/contact">Contact</Link>
-        </li>
-      </ul>
-    </nav>
-  );
+export class Navbar extends Component {
+  render(){
+    return (
+      <nav>
+        <ul>
+          <li>
+            <a href="#welcome">Welcome</a>
+          </li>
+          <li>
+            <a href="#video">Video</a>
+          </li>
+          <li>
+            <a href="#image-gallery">Gallery</a>
+          </li>
+          <li>
+            <a href="#weather-and-traffic">Weather</a>
+          </li>
+          <li>
+            <a href="#contact-us">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    );
+  }
 }
-
-export default Navbar;
