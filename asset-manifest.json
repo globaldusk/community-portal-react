@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/community-portal-react/static/css/main.d177c283.css",
+    "main.js": "/community-portal-react/static/js/main.9867889d.js",
+    "static/media/golf-img1.jpg": "/community-portal-react/static/media/golf-img1.78362030cc74b5ddb694.jpg",
+    "static/media/golf-img5.jpg": "/community-portal-react/static/media/golf-img5.ec6020eb33fd96dcdcec.jpg",
+    "static/media/golf-img6.jpg": "/community-portal-react/static/media/golf-img6.9a0174b3184a38b8dffb.jpg",
+    "static/media/golf-img3.jpg": "/community-portal-react/static/media/golf-img3.66c6c104056e19054717.jpg",
+    "static/media/golf-img2.jpg": "/community-portal-react/static/media/golf-img2.d23fcb4d477c9d123871.jpg",
+    "static/media/golf-img4.jpg": "/community-portal-react/static/media/golf-img4.6c9640353ddce4a6db0b.jpg",
+    "static/media/background-img.avif": "/community-portal-react/static/media/background-img.974e7dd7dc7e8be96e89.avif",
+    "static/media/prime-golf.png": "/community-portal-react/static/media/prime-golf.cc63ab7eddb2121a2d48.png",
+    "index.html": "/community-portal-react/index.html",
+    "main.d177c283.css.map": "/community-portal-react/static/css/main.d177c283.css.map",
+    "main.9867889d.js.map": "/community-portal-react/static/js/main.9867889d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d177c283.css",
+    "static/js/main.9867889d.js"
+  ]
+}
