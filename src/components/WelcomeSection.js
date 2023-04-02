@@ -7,7 +7,7 @@ As a company we value service, quality and experience.
 On this web app you can fin images and videos of our facilities, weather and traffic 
 for each day of the week at our locations, you can also contact us directly!`);
 
-export class WelcomeSection extends Component {//using synthetic events
+export class WelcomeSection extends Component {//using react's synthetic events for the contact us section
   render(){
     return (
       <section>
