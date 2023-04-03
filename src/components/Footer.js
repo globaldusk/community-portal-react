@@ -23,4 +23,4 @@ export class Footer extends Component {
       </footer>
     );
   }
-}
+}//Basic footer that uses font awesome for social media icons

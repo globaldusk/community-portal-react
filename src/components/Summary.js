@@ -19,4 +19,4 @@ export class Summary extends Component {
       </section>
     );
   }
-}
+}//simple summary with message using a template string

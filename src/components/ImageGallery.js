@@ -23,4 +23,4 @@ export class ImageGallery extends Component {
       </section>
     );
   }
-}
+}//image gallery of 6 images that are displayed in a grid

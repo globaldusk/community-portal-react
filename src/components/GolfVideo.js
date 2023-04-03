@@ -19,4 +19,4 @@ export class GolfVideo extends Component {
       </section>
     );
   }
-}
+}//interactable youtube video in an iframe

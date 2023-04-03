@@ -11,4 +11,4 @@ export class Header extends Component {
         </header>
       );
   }
-}
+}//basic header with logo

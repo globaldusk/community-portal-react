@@ -24,4 +24,4 @@ export class Navbar extends Component {
       </nav>
     );
   }
-}
+}//navbar that takes you to each section of the site without needing to reload the page
